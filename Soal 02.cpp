@@ -16,7 +16,6 @@ int main() {
 	} else if (input1 > 100 || input2 > 100) {
 		cout << "Input tidak dikenali" << endl;
 	} else {
-
 		if (input1 < input2) {
 			cout << "Input pertama lebih kecil dari input kedua" << endl;
 		} else if (input1 > input2) {
@@ -24,7 +23,6 @@ int main() {
 		} else if (input1 == input2) {
 			cout << "Input pertama sama dengan input kedua" << endl;
 		}
-
 	}
 
 	return 0;
